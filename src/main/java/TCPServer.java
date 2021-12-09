@@ -4,7 +4,7 @@ import java.net.Socket;
 
 public class TCPServer {
 
-    final static int PORT_NUMBER = 1234;
+    final static int PORT_NUMBER = 35000;
 
     public static void main(String[] args) throws IOException {
         System.out.println("Server is listening at port : " + PORT_NUMBER);
